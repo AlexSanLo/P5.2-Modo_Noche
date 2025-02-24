@@ -10,9 +10,14 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
+// La primera section consiste en el User Person + el boton para cambiar el tema de la página
+
+// La segunda section consiste en un grid con la card de la persona que ocupa 2 rows y las cuatro primeras columnas
+// y la información de la persona que ocupa 2 rows y las 8 últimas columnas
+
 export default function Home() {
   return (
-    <>
+    <>  
     <section className="container mx-auto pb-6 mt-10">
       <div className="grid grid-cols-12 gap-4 me-20 ms-20">
         <div className="col-span-4 col-start-1">

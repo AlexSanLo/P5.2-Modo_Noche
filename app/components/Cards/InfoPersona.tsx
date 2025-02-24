@@ -1,10 +1,16 @@
 import React from "react";
 
+//Realizo una prop porque solo voy a hacer una card donde se el pasaran parametros
 interface InfoProps {
   titulo: string; 
   contenido?: string;
   lista?: Array<string>;
 }
+
+//Creo una card con un titulo, contenido y una lista. La lista y el contenido son opciones por lo que se le pone un ?.
+//Si no se le pasa contenido o lista no se mostrara nada
+//En la lista se le pasa un array de strings y se mostrara cada uno de los elementos de la lista
+//En el contenido se le pasa un string y se mostrara el contenido
 
 export default function InfoPersona({titulo, contenido="", lista=[]} : InfoProps) {
   return (
