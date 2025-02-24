@@ -28,17 +28,17 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="container mx-auto pb-6">
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 me-20 ms-20">
-        <div className="col-span-12 md:col-span-4 col-start-1">
+    <section className="container mx-auto pb-6 h-full">
+      <div className="grid grid-cols-1 md:grid-cols-12 grid-rows-2 gap-4 me-20 ms-20 h-full">
+        <div className="col-span-12 md:col-span-4 row-span-2 col-start-1 h-full">
           <Persona />
         </div>
         
-        <div className="col-span-12 md:col-start-5 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="col-span-12 md:col-start-5 md:col-span-8 row-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
           <InfoPersona titulo="Bio" contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec libero ultricies aliquam. Nullam nec purus nec libero ultricies aliquam." />
-          <InfoPersona titulo="Personality" contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec libero ultricies aliquam. Nullam nec purus nec libero ultricies aliquam." />
-          <InfoPersona titulo="Pain points" contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec libero ultricies aliquam. Nullam nec purus nec libero ultricies aliquam." />
-          <InfoPersona titulo="Goals" contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec libero ultricies aliquam. Nullam nec purus nec libero ultricies aliquam." />
+          <InfoPersona titulo="Personality" lista={["Hardworking", "Smart", "Expressive", "Thoughtful"]}/>
+          <InfoPersona titulo="Pain points" lista={["Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit.", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit."]} />
+          <InfoPersona titulo="Goals" lista={["Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit.", "Lorem ipsum dolor sit amet, fgefw consectetur adipiscing elit. Euchue"]} />
         </div>
       </div>
     </section>
