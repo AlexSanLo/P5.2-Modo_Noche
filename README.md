@@ -20,5 +20,5 @@ Se trata de un proyecto en el cual a partir de un diseño en Figma hay que reali
 - Tailwind CSS
 
 ### 3. Enlaces
-[Enlace a Figma](https://www.figma.com/design/10u17bqBRQfO8PJ0mFsHGJ/Dark-Mode-(Copy)?node-id=0-18&t=uOJLjqMWb2sho7BC-1)
+  [Enlace a Figma](https://www.figma.com/design/10u17bqBRQfO8PJ0mFsHGJ/Dark-Mode-(Copy)?node-id=0-18&t=uOJLjqMWb2sho7BC-1)
 - Para ejecutar en Visual hay que poner en la terminal **npm run dev**
