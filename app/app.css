@@ -3,13 +3,35 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    /* Colors*/
+  /* light colors */
+  --body-bg-light: #ffffff;
+  --button-bg-light: #3676e0;
+  --button-text-light: #ffffff;
+  --card-bg-light: #ebf3fe;
+  --card-h2-light: #193767;
+  --card-paragraph-light: #5e6b81;
+  --list-bullet-light: #3676e0;
+  --main-header-light: #13151a;
+  --primary-light: #3676e0;
+
+  /* dark color */
+  --body-bg-dark: #121212;
+  --button-bg-dark: #7cabf9;
+  --button-text-dark: #13151a;
+  --card-bg-dark: #7cabf9;
+  --card-h2-dark: #13151a;
+  --card-paragraph-dark: #13151a;
+  --list-bullet-dark: #13151a;
+  --main-header-dark: #fbfbfc;
+  --primary-dark: #7cabf9;
 }
+
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+  @apply bg-body-bg-light dark:bg-body-bg-dark transition duration-300;
 }
