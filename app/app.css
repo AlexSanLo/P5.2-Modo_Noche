@@ -6,32 +6,31 @@
 
     /* Colors*/
   /* light colors */
-  --body-bg-light: #ffffff;
-  --button-bg-light: #3676e0;
-  --button-text-light: #ffffff;
-  --card-bg-light: #ebf3fe;
-  --card-h2-light: #193767;
-  --card-paragraph-light: #5e6b81;
-  --list-bullet-light: #3676e0;
-  --main-header-light: #13151a;
-  --primary-light: #3676e0;
+  --color-body-bg-light: #ffffff;
+  --color-button-bg-light: #3676e0;
+  --color-button-text-light: #ffffff;
+  --color-card-bg-light: #ebf3fe;
+  --color-card-h2-light: #193767;
+  --color-card-paragraph-light: #5e6b81;
+  --color-list-bullet-light: #3676e0;
+  --color-main-header-light: #13151a;
+  --color-primary-light: #3676e0;
 
   /* dark color */
-  --body-bg-dark: #121212;
-  --button-bg-dark: #7cabf9;
-  --button-text-dark: #13151a;
-  --card-bg-dark: #7cabf9;
-  --card-h2-dark: #13151a;
-  --card-paragraph-dark: #13151a;
-  --list-bullet-dark: #13151a;
-  --main-header-dark: #fbfbfc;
-  --primary-dark: #7cabf9;
+  --color-body-bg-dark: #121212;
+  --color-button-bg-dark: #7cabf9;
+  --color-button-text-dark: #13151a;
+  --color-card-bg-dark: #7cabf9;
+  --color-card-h2-dark: #13151a;
+  --color-card-paragraph-dark: #13151a;
+  --color-list-bullet-dark: #13151a;
+  --color-main-header-dark: #fbfbfc;
+  --color-primary-dark: #7cabf9;
 }
 
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-html,
-body {
+html,body {
   @apply bg-body-bg-light dark:bg-body-bg-dark transition duration-300;
 }
