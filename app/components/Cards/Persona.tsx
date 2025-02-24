@@ -15,33 +15,33 @@ export default function Persona() {   //Creo el componente Card donde ira la fot
 
         {/* //Al haber una card no hace falta pasarle nada por Props */}
         <div className="md:pb-7 md:text-base lg:text-lg w-full flex md:flex-col lg:flex-row justify-between mb-1.5 px-2 sm:px-4 text-card-h2-light dark:text-card-h2-dark">
-          <span className="w-50 text-left font-bold">NAME:</span>
-          <h1 className="text-left flex-1">35</h1>
+          <span className="w-1/2 sm:w-50 text-left font-bold">NAME:</span>
+          <h1 className="text-left w-1/2 flex-1">35</h1>
         </div>
 
         <div className="md:pb-7 md:text-base lg:text-lg w-full flex md:flex-col lg:flex-row justify-between mb-1.5 px-2 sm:px-4 text-card-h2-light dark:text-card-h2-dark">
-          <span className="w-50 text-left font-bold">AGE:</span>
-          <h1 className="text-left flex-1">Married, 2 kids</h1>
+          <span className="w-1/2 sm:w-50 text-left font-bold">AGE:</span>
+          <h1 className="text-left w-1/2 flex-1">Married, 2 kids</h1>
         </div>
 
         <div className="md:pb-7 md:text-base lg:text-lg w-full flex md:flex-col lg:flex-row justify-between mb-1.5 px-2 sm:px-4 text-card-h2-light dark:text-card-h2-dark">
-          <span className="md:pe-1 w-50 text-left font-bold">EDUCATION:</span>
-          <h1 className="text-left flex-1">University of Calgary</h1>
+          <span className="md:pe-1 w-1/2 sm:w-50 text-left font-bold">EDUCATION:</span>
+          <h1 className="text-left w-1/2 flex-1">University of Calgary</h1>
         </div>
 
         <div className="md:pb-7 md:text-base lg:text-lg w-full flex md:flex-col lg:flex-row justify-between mb-1.5 px-4 text-card-h2-light dark:text-card-h2-dark">
-          <span className="md:pe-3 w-50 text-left font-bold">LOCATION:</span>
-          <h1 className="text-left flex-1">Calgary, Alberta</h1>
+          <span className="md:pe-3 w-1/2 sm:w-50 text-left font-bold">LOCATION:</span>
+          <h1 className="text-left w-1/2 flex-1">Calgary, Alberta</h1>
         </div>
 
         <div className="md:pb-7 md:text-base lg:text-lg w-full flex md:flex-col lg:flex-row justify-between mb-1.5 px-4 text-card-h2-light dark:text-card-h2-dark">
-          <span className="w-50 text-left font-bold">JOB:</span>
-          <h1 className="text-left flex-1">Family Physician</h1>
+          <span className="w-1/2 sm:w-50 text-left font-bold">JOB:</span>
+          <h1 className="text-left w-1/2 flex-1">Family Physician</h1>
         </div>
 
         <div className="md:pb-7 md:text-base lg:text-lg w-full flex md:flex-col lg:flex-row justify-between mb-1.5 px-4 text-card-h2-light dark:text-card-h2-dark">
-          <span className="w-50 text-left font-bold">HOBBIES:</span>
-          <h1 className="text-left flex-1">Hiking and dancing</h1>
+          <span className="w-1/2 sm:w-50 text-left font-bold">HOBBIES:</span>
+          <h1 className="text-left w-1/2 flex-1">Hiking and dancing</h1>
         </div>
       </div>
     </div>
