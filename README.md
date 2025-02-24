@@ -8,11 +8,11 @@
 Se trata de un proyecto en el cual a partir de un diseño en Figma hay que realizar un modo claro y modo oscuro sobre un página web.
 
 ### 2. Características
-✅ Implementación del diseño proporcionado en Figma.
-✅ Cambio de modo noche según la preferencia del sistema o manualmente.
-✅ Diseño responsivo con Tailwind CSS.
-✅ Uso del sistema de Grid de Tailwind.
-✅ Enrutamiento con React Router.
+- ✅ Implementación del diseño proporcionado en Figma.
+- ✅ Cambio de modo noche según la preferencia del sistema o manualmente.
+- ✅ Diseño responsivo con Tailwind CSS.
+- ✅ Uso del sistema de Grid de Tailwind.
+- ✅ Enrutamiento con React Router.
 
 ### 3. Tecnologías Utilizadas
 - React
